@@ -1,0 +1,6 @@
+1、whiteColor       name:tr_WhiteColor 	        value:white black
+2、blackColor       name:tr_blackColor 	        value:lightBlack white
+3、MainColor        name:tr_MainColor	        value:mainColor mainColor
+4、深灰	            name:tr_StautColor	        value:深灰 浅灰
+5、浅灰		        name:tr_desColor	        value:浅灰 深灰
+6、groundColor	    name:tr_groundColor	        value:浅浅灰 深灰

@@ -1,0 +1,6 @@
+framework module Pods_YiLiaoDaoDi {
+  umbrella header "Pods-YiLiaoDaoDi-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,19 @@
+//
+//  ReleaseTest.xcconfig
+//  YiLiaoDaoDi
+//
+//  Created by MD101 on 2020/7/16.
+//  Copyright © 2020 QiXia. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-YiLiaoDaoDi-YiLiaoDaoDiUITests/Pods-YiLiaoDaoDi-YiLiaoDaoDiUITests.release.xcconfig"
+#include "YiLiaoDaoDiDemo.xcconfig"
+
+//服务器地址
+API_URL = @"http:/$()/47.244.200.61:8092/"
+
+//是否生产环境
+IS_PRODUCTION = YES

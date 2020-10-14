@@ -1,0 +1,11 @@
+//
+//  YiLiaoDaoDiDemo.xcconfig
+//  YiLiaoDaoDi
+//
+//  Created by MD101 on 2020/7/16.
+//  Copyright © 2020 QiXia. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) IS_PRODUCTION='$(IS_PRODUCTION)' API_URL='$(API_URL)'

@@ -1,0 +1,41 @@
+//
+//  YiLiaoDaoDi.pch
+//  YiLiaoDaoDi
+//
+//  Created by MD101 on 2020/7/1.
+//  Copyright © 2020 QiXia. All rights reserved.
+//
+#ifndef YiLiaoDaoDi_pch
+#define YiLiaoDaoDi_pch
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+//#import <XMPP.h>
+#import <Masonry.h>
+#import <AipOcrSdk/AipOcrSdk.h>
+#import <SDWebImage/SDWebImage.h>
+#import <MJExtension/MJExtension.h>
+
+#import "YIURLAPI.h"            //api接口
+#import "YIMacro.h"             //宏定义
+#import "YINetWordHelper.h"     //请求
+#import "YIManager.h"           //获得当前控制类
+
+#import "UIView+Utils.h"
+#import "NSArray+YIGIFImages.h"     //gif
+#import "UIView+YIGestap.h"         //添加点击事件
+
+#import "YIAnimationHUD.h"      //请求数据动画
+#import "YIImageView.h"         //图片 + 加载动画
+
+#import "YIUserObject.h"        //个人信息
+#import "YIConfigObject.h"      //app配置信息
+
+#import "YIHomeManager.h"       // --home的方法类
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif /* YiLiaoDaoDi_pch */
